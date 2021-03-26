@@ -1,0 +1,18 @@
+ * {
+     background-color: thistle;
+ }
+
+ .icon-back {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+ .icon-next {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+  }
