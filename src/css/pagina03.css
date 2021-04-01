@@ -22,6 +22,30 @@ body {
   .page-subtitle {
     color: #ffffff;
     margin-top: 5px;
+    
+  }
+  
+  .result {
+    color: #ffffff;
+    align-items: center;
+    font-size: 20pt;
+  }
+
+  .result:after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
   }
   
   .page-logo {

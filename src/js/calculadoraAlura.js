@@ -6,17 +6,17 @@ let operacao = prompt('Digite 1 para Soma, 2 para subtração, 3 para multiplica
 
 //Valores das operações que vão ser feitas
 if (operacao == 1){
-    let resultado = primeiroValor + segundoValor
-    document.write(`<h2>${primeiroValor} + ${segundoValor} = ${resultado}</h2>`)
+	let resultado = primeiroValor + segundoValor
+	document.write(`<h2>${primeiroValor} + ${segundoValor} = ${resultado}</h2>`)
 }else if(operacao == 2){
-    let resultado = primeiroValor - segundoValor
-    document.write(`<h2>${primeiroValor} - ${segundoValor} = ${resultado}</h2>`)
+	let resultado = primeiroValor - segundoValor
+	document.write(`<h2>${primeiroValor} - ${segundoValor} = ${resultado}</h2>`)
 }else if(operacao == 3){
-    let resultado = primeiroValor * segundoValor
-    document.write(`<h2>${primeiroValor} x ${segundoValor} = ${resultado}</h2>`)
+	let resultado = primeiroValor * segundoValor
+	document.write(`<h2>${primeiroValor} x ${segundoValor} = ${resultado}</h2>`)
 }else if(operacao == 4){
-    let resultado = primeiroValor / segundoValor
-    document.write(`<h2>${primeiroValor} / ${segundoValor} = ${resultado}</h2>`)
+	let resultado = primeiroValor / segundoValor
+	document.write(`<h2>${primeiroValor} / ${segundoValor} = ${resultado}</h2>`)
 }else {
-    document.write('<h2>Opção Inválida!</h2>')
+	document.write('<h2>Opção Inválida!</h2>')
 }
