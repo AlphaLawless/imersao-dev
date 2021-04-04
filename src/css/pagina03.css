@@ -70,4 +70,12 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .icon-back:hover {
+    opacity: 0.5;
   }
